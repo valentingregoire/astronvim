@@ -1,4 +1,4 @@
-if true then return {} end -- WARN: REMOVE THIS LINE TO ACTIVATE THIS FILE
+-- if true then return {} end -- WARN: REMOVE THIS LINE TO ACTIVATE THIS FILE
 
 -- AstroCommunity: import any community modules here
 -- We import this file in `lazy_setup.lua` before the `plugins/` folder.
@@ -8,5 +8,15 @@ if true then return {} end -- WARN: REMOVE THIS LINE TO ACTIVATE THIS FILE
 return {
   "AstroNvim/astrocommunity",
   { import = "astrocommunity.pack.lua" },
-  -- import/override with your plugins folder
+  { import = "astrocommunity.completion.copilot-lua" },
+  { import = "astrocommunity.markdown-and-latex.render-markdown-nvim" },
+  { import = "astrocommunity.markdown-and-latex.markdown-preview-nvim" },
+  { import = "astrocommunity.bars-and-lines.statuscol-nvim" },
+  { import = "astrocommunity.bars-and-lines.vim-illuminate" },
+  { import = "astrocommunity.test.neotest" },
+  -- { import = "astrocommunity.colorscheme." },
+  -- { import = "astrocommunity." },
+  -- { import = "astrocommunity.pack.python" },
+  { import = "astrocommunity.media.image-nvim" },
+  { import = "astrocommunity.scrolling.nvim-scrollbar" },
 }
