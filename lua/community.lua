@@ -19,4 +19,6 @@ return {
   -- { import = "astrocommunity.pack.python" },
   { import = "astrocommunity.media.image-nvim" },
   { import = "astrocommunity.scrolling.nvim-scrollbar" },
+  { import = "astrocommunity.debugging.nvim-dap-virtual-text" },
+  { import = "astrocommunity.debugging.persistent-breakpoints-nvim" },
 }
