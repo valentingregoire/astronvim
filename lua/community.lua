@@ -14,6 +14,7 @@ return {
   { import = "astrocommunity.bars-and-lines.statuscol-nvim" },
   { import = "astrocommunity.bars-and-lines.vim-illuminate" },
   { import = "astrocommunity.test.neotest" },
+  { import = "astrocommunity.test.nvim-coverage" },
   -- { import = "astrocommunity.colorscheme." },
   -- { import = "astrocommunity." },
   -- { import = "astrocommunity.pack.python" },
