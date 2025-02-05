@@ -1,8 +1,6 @@
-# AstroNvim Template
+# AstroNvim
 
-**NOTE:** This is for AstroNvim v4+
-
-A template for getting started with [AstroNvim](https://github.com/AstroNvim/AstroNvim)
+Here, you can find my configs for [AstroNvim](https://github.com/AstroNvim/AstroNvim), based on the AstroNvim template for AstroNvim v4+.
 
 ## 🛠️ Installation
 
@@ -14,17 +12,12 @@ mv ~/.local/share/nvim ~/.local/share/nvim.bak
 mv ~/.local/state/nvim ~/.local/state/nvim.bak
 mv ~/.cache/nvim ~/.cache/nvim.bak
 ```
-
-#### Create a new user repository from this template
-
-Press the "Use this template" button above to create a new repository to store your user configuration.
-
-You can also just clone this repository directly if you do not want to track your user configuration in GitHub.
-
 #### Clone the repository
 
+This command will clone this repository straight into the correct place (`~/.config/nvim`).
+
 ```shell
-git clone https://github.com/<your_user>/<your_repository> ~/.config/nvim
+git clone git@github.com:valentingregoire/astronvim.git ~/.config/nvim
 ```
 
 #### Start Neovim
@@ -32,3 +25,8 @@ git clone https://github.com/<your_user>/<your_repository> ~/.config/nvim
 ```shell
 nvim
 ```
+
+The first time `nvim` is started, AstroNvim will be configuring itself and updating all plugins.
+To make sure, after the initial configuration is completed, make sure to update Lazy and Mason (`<leader>, p, a`).
+
+Restart `nvim` and enjoy!
