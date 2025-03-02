@@ -10,10 +10,10 @@ return {
   -- language packs
   { import = "astrocommunity.pack.bash" },
   { import = "astrocommunity.pack.docker" },
-  { import = "astrocommunity.pack.java" },
+  -- { import = "astrocommunity.pack.java" },
   { import = "astrocommunity.pack.lua" },
-  { import = "astrocommunity.pack.typescript-all-in-one" },
-  { import = "astrocommunity.pack.vue" },
+  -- { import = "astrocommunity.pack.typescript-all-in-one" },
+  -- { import = "astrocommunity.pack.vue" },
   { import = "astrocommunity.pack.yaml" },
 
   -- debugging
