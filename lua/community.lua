@@ -36,5 +36,6 @@ return {
   { import = "astrocommunity.completion.copilot-lua" },
   { import = "astrocommunity.utility.hover-nvim" },
   { import = "astrocommunity.utility.noice-nvim" },
+  { import = "astrocommunity.icon.mini-icons" },
   -- { import = "astrocommunity.workflow.hardtime-nvim" },
 }
